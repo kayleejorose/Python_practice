@@ -4,6 +4,7 @@ Created on Tue Aug 16 15:29:22 2022
 
 @author: kayle
 """
+#This script counts the number of each nucleotide in a DNA sequence
 
 #enter string of nucleotides
 DNA_seq = input("Enter the DNA sequence: ")
@@ -32,3 +33,7 @@ for nucleotide in DNA_seq:
 #print("A =", a_ctr, ", T =", t_ctr, ", C =", c_ctr, ", G =", g_ctr)
 #printing nucleotide counts in the preferred formatting for Rosalind
 print(a_ctr, c_ctr, g_ctr, t_ctr)
+
+raise SystemExit(0)
+#This works, but if statementes can be really slow--it has to check if every position
+#is A, T, C or G 
